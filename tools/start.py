@@ -1,2 +1,2 @@
-def run():
+def run_hugo():
     print("Hi")
