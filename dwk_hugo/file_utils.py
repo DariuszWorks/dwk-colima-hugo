@@ -3,9 +3,11 @@ import shutil
 
 
 def clean_folder(folder_path: str):
-    """Clean folder by removing its content and creating it again.
+    """
+    Clean a folder by removing all its contents and creating a new empty folder.
 
-    :param folder_path:
+    :param folder_path: The path of the folder to be cleaned.
+    :return: None
     """
     try:
         if os.path.exists(folder_path):
